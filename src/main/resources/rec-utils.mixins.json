@@ -3,7 +3,10 @@
 	"package": "net.deamjava.rec_utils.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ClientboundPlayerInfoUpdatePacketAccessor",
+		"CommandSourceStackMixin",
+		"PlayerListMixin",
+		"ServerPlayerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

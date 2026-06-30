@@ -20,20 +20,10 @@
 				"value": "net.deamjava.rec_utils.RecUtils",
 				"adapter": "kotlin"
 			}
-		],
-		"client": [
-			{
-				"value": "net.deamjava.rec_utils.client.RecUtilsClient",
-				"adapter": "kotlin"
-			}
 		]
 	},
 	"mixins": [
-		"rec-utils.mixins.json",
-		{
-			"config": "rec-utils.client.mixins.json",
-			"environment": "client"
-		}
+		"rec-utils.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
