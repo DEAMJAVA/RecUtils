@@ -3,7 +3,7 @@
 	"id": "rec-utils",
 	"version": "${version}",
 	"name": "Rec Utils",
-	"description": "Utilites For Recordingt Scripted Minecraft Vides",
+	"description": "Utilities For Recording Scripted Minecraft Videos",
 	"authors": [
 		"DEAMJAVA"
 	],
@@ -26,8 +26,8 @@
 		"rec-utils.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
 		"java": ">=25",
 		"fabric-api": "*",
 		"fabric-language-kotlin": "*"
